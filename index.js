@@ -31,7 +31,6 @@ let word = "renniw"
 const ans = word.split('').reverse().join('');
 console.log(ans);
 
-let fruits=["apple","mango","watermelon","cucumber","Orange","Banana","Kiwi","currant","Strawberry","Papaya"]
-let fruit="Tomato";
-addFruit=fruits.slice(0,5)+fruit+","+fruits.slice(5);
-console.log(addFruit);
+const fruits = ["Mango", "Banana", "Kiwi", "Watermelon", "Orange", "Grapes", "Thornmelon", "Peach", "Avocado",];
+fruits.splice(5, 0, "Tomato");
+console.log({ fruits });
